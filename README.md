@@ -15,6 +15,7 @@ The carousel is initialized via a call to:
 
 `$(carousel_container_selector).carousel([options]);`
 
+
 The available options are:
 
 *	`animateDuration`	: the duration (in ms) of the slide animation (default: 300)
@@ -22,3 +23,6 @@ The available options are:
 *	`autoSlideInterval`	: the interval (in ms) between two consecutive autoslides (needed only if autoslide is true, default:4000)
 *	`pauseOnHover`		: whether the autosliding will pause when mouse hovers over the carousel (default: true)
 *	`keySlide`			: whether sliding can be performed using the left/right keys (default: true)
+
+**Note:**
+For the carousel to be initialized, you may need to resize your browser to a point where not all images are visible.
