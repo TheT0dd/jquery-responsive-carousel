@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Responsive Carousel Demo</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/responsive.carousel.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js" ></script>
+		<script type="text/javascript" src="js/jquery.responsive.carousel-1.0.js"></script> 
+		<script>
+			$(document).ready(function() {  
+				$('#carousel-container').carousel();
+			}); 		
+		</script>
+	</head>
+	<body>
+	
+		<div id='carousel-container'>  
+		  	<div id='left-scroll'></div>
+		  	<div id='right-scroll'></div>
+		    <div id='viewport'>  
+		        <ul id='carousel-ul'>  
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-1.JPG') no-repeat center"></div></li>
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-2.JPG') no-repeat center"></div></li> 	
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-3.JPG') no-repeat center"></div></li> 	
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-4.JPG') no-repeat center"></div></li> 	
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-5.JPG') no-repeat center"></div></li> 	
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-6.JPG') no-repeat center"></div></li> 	
+					<li><div class="carousel-photo" style="background: url('css/images/samples/sample-7.JPG') no-repeat center"></div></li> 						
+		        </ul>  
+		    </div>  	  	 
+		</div> 
+	</body>
+</html>
